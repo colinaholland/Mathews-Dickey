@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Photo Gallery - Mathews-Dickey Boys' & Girls' Club - St. Louis, MO</title>
+<meta name="description" content="The Mathews-Dickey Boy's & Girl's Club, a non-profit organization, was founded in 1960 by Martin L. Mathews and the late Hubert Dickey Ballentine. .">
+<meta name="keywords" content="">
+
+<!--[if lte IE 7]> <html class="ie7"> <![endif]-->  
+<!--[if IE 8]>     <html class="ie8"> <![endif]-->
+
+<link href="css/styles.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.dropdownPlain.js"></script>
+<link rel="stylesheet" type="text/css" href="css/layout.css" />
+<link rel="stylesheet" type="text/css" href="css/pile.css" />
+<script src="js/modernizr.custom.63321.js"></script>
+<!--[if lte IE 7]><style>.unsupported-notice .note-ie{display:block;}</style><![endif]-->
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.script.js"></script>
+
+<script type="text/javascript">
+			$(function() {
+
+				var $grid = $( '#pport-grid' ),
+					$name = $( '#name' ),
+					$close = $( '#close' ),
+					$loader = $( '<div class="pport_loader"><i></i><i></i><i></i><i></i><i></i><i></i><span>Loading...</span></div>' ).insertBefore( $grid ),
+					stapel = $grid.stapel( {
+						onLoad : function() {
+							$loader.remove();
+						},
+						onBeforeOpen : function( pileName ) {
+							$("a[rel^='prettyPhoto']").prettyPhoto({animation_speed:'normal',theme:'dark_square',slideshow:8000, autoplay_slideshow: false, Food_tools: false,show_title: false, social_tools: false, allow_resize: true});
+
+						},
+						onAfterOpen : function( pileName ) {
+							$close.show();
+						}
+					} );
+
+				$close.on( 'click', function() {
+					$close.hide();
+					$name.empty();
+					stapel.closePile();
+				} );
+
+			} );
+		</script>
+
+<!-- PrettyPhoto Starts -->
+<link rel="stylesheet" type="text/css" href="prettyPhoto/css/prettyPhoto.css" />
+<script type="text/javascript" src="prettyPhoto/js/jquery.prettyPhoto.js"></script>
+<!-- PrettyPhoto Ends -->
+
+</head>
+
+<body>
+<div class="mainBkg">
+<div class="container">
+  <div class="content">
+  <div class="header">
+  <div class="headerLft"><a href="index.html"><img src="images/md_logo.png" width="295" height="66" alt="Mathews-Dickey Boys &amp; Girls' Club" /></a></div>
+  <div class="headerRt">
+  <div class="donateBtn"><a href="pledgeform_cc.html"><img src="images/donation_bttn.png" width="158" height="29" alt="Make A Donation" /></a></div>
+  <div class="social"><a href="shopping.html"><img src="images/shop.png" alt="Shop Our Store" width="115" height="26" /></a>&nbsp;&nbsp;<a href="http://www.facebook.com/pages/Mathews-Dickey-Boys-Girls-Club/204323896272222" target="_blank"><img src="images/fb_icon.png" width="26" height="24" alt="Facebook" /></a> <a href="https://twitter.com/MathewsDickey" target="_blank"><img src="images/twitter_icon.png" width="26" height="24" alt="Twitter" /></a> <a href="http://www.youtube.com/MathewsDickey" target="_blank"><img src="images/youtube_icon.png" width="26" height="24" alt="YouTube" /></a></div>
+  </div>
+  </div>
+  <!--Main Nav Starts Here-->
+  <div class="nav">
+  <ul class="myMenu">
+	<li><a href="javascript:void(0)">ABOUT US</a>    <ul>
+        <li><a href="mission.html">Our Mission</a></li>
+		<li><a href="history.html">History</a></li>
+		<li><a href="board-of-directors.html">Board of Directors</a></li>
+		<li><a href="development-committee.html">Development Committee</a></li>
+		<li><a href="metropolitan-council.html">Metropolitan Council</a></li>
+		<li><a href="youth-leadership.html">Youth Leadership</a></li>
+		<li><a href="staff.html">Staff</a></li>
+		<li><a href="sponsors.html">Sponsors</a></li>
+		<li><a href="alumni-form.html">Alumni</a></li>							
+    </ul>
+    </li>
+    <li><a href="javascript:void(0)">PROGRAMS</a>
+    <ul>
+        <li><a href="tutoring.html">Volunteer Tutorial Program</a></li>
+		<li><a href="clip.html">Computer Literacy Instruction Program (CLIP)</a></li>
+        <li><a href="urban-music-program.html">Urban Music Program</a></li>
+		<li><a href="girls-program.html">Girls' Program</a></li>
+		<li><a href="sports-program.html">Sports Program</a></li>
+		<li><a href="rbi-program.html">Reviving Baseball in the Inner City (RBI) Program</a></li>
+		<li><a href="summer-day-camp.html">Summer Day Camp</a></li>
+		<li><a href="afterschool.html">After School Program</a></li>
+        </ul>
+    </li>
+    <li><a href="javascript:void(0)">SPECIAL EVENTS</a>
+     <ul>
+        <li><a href="calendar-of-events.html">Calendar of Events</a></li>
+		<li><a href="awards-banquet.html">Awards Banquet</a></li>
+		<li><a href="jack-buck-night.html">Jack Buck Night</a></li>
+		<li><a href="maleness-to-manhood.html">Maleness to Manhood</a></li>
+		<li><a href="safety-weekend.html">Safety Weekend</a></li>
+		<li><a href="say-amen-gala.html">Say Amen Gala</a></li>
+		<li><a href="sheer-elegance.html">Sheer Elegance Fashion Show</a></li>
+   		<li><a href="sky-is-the-limit.html">The Sky is the Limit</a></li>                             
+        </ul>
+    </li>
+    <li><a href="javascript:void(0)">VOLUNTEERISM</a>
+      <ul>
+        <li><a href="volunteer-administration.html">Administration</a></li>
+		<li><a href="volunteer-education.html">Education</a></li>
+		<li><a href="volunteer-marketing-finance.html">Marketing &amp; Financial Development</a></li>
+		<li><a href="volunteer-public-relations.html">Public Relations &amp; Special Events</a></li>
+		<li><a href="volunteer-coaching-sports.html">Sports &amp; Operations</a></li>                             
+        </ul>
+    </li>
+    <li><a href="javascript:void(0)">GALLERIES</a>
+    <ul>
+		<li><a href="photo-gallery.html">Photo Gallery</a></li>
+		<li><a href="videos.php">Video Gallery</a></li>								
+	</ul>
+    </li>
+    <li style="padding-left: 4px;"><a href="membership.html">MEMBERSHIP</a></li>
+    <li style="padding-left: 4px;"><a href="contact.html">CONTACT</a></li>
+	</ul>
+
+  </div>
+  <!--End Main Nav-->
+  <div class="mainImg"><img src="images/photo_banner.png" width="1000" height="315" alt="Photo Gallery" /></div>
+  <div class="mainTitle"><div class="floatRight"> </div>
+  <h1>Photo Gallery</h1>
+  </div>
+  <div class="main3">
+  <div class="breadcrumbs"><a href="index.html">Home</a> / <a href="javascript:void(0)">Galleries</a> / Photo Gallery</div>
+  <div class="dc_pport_container">
+  <header class="clearfix">
+    <div class="unsupported-notice"> <span class="note-ie">Browser not supported. Please upgrade your browser.</span> </div>
+  </header>
+  <section class="dc_pport_main">
+    <div class="dc_pport_wrapper">
+      <div class="pport_top"> <span id="close" class="pport_back elHide"><img src="images/backtogalleries.png"></span>      </div>
+      <ul id="pport-grid" class="pport-grid">
+
+        <!-- Say Amen Banquet 2012 -->
+        
+        <li data-pile="Say Amen Banquet"> <a href="gallery/imagesLg/001.jpg" rel="prettyPhoto[cat1]" title="Say Amen Banquet"> <span class="pport-info"><span>Say Amen Banquet</span></span> <img src="gallery/imagesSm/001.jpg" /> </a> </li>
+        <li data-pile="Say Amen Banquet"> <a href="gallery/imagesLg/002.jpg" rel="prettyPhoto[cat1]" title="Say Amen Banquet"> <span class="pport-info"><span>Say Amen Banquet</span></span> <img src="gallery/imagesSm/002.jpg" /> </a> </li>
+        <li data-pile="Say Amen Banquet"> <a href="gallery/imagesLg/003.jpg" rel="prettyPhoto[cat1]" title="Say Amen Banquet"> <span class="pport-info"><span>Say Amen Banquet</span></span> <img src="gallery/imagesSm/003.jpg" /> </a> </li>
+        <li data-pile="Say Amen Banquet"> <a href="gallery/imagesLg/004.jpg" rel="prettyPhoto[cat1]" title="Say Amen Banquet"> <span class="pport-info"><span>Say Amen Banquet</span></span> <img src="gallery/imagesSm/004.jpg" /> </a> </li>
+        <li data-pile="Say Amen Banquet"> <a href="gallery/imagesLg/005.jpg" rel="prettyPhoto[cat1]" title="Say Amen Banquet"> <span class="pport-info"><span>Say Amen Banquet</span></span> <img src="gallery/imagesSm/005.jpg" /> </a> </li>
+        <li data-pile="Say Amen Banquet"> <a href="gallery/imagesLg/006.jpg" rel="prettyPhoto[cat1]" title="Say Amen Banquet"> <span class="pport-info"><span>Say Amen Banquet</span></span> <img src="gallery/imagesSm/006.jpg" /> </a> </li>
+        <li data-pile="Say Amen Banquet"> <a href="gallery/imagesLg/007.jpg" rel="prettyPhoto[cat1]" title="Say Amen Banquet"> <span class="pport-info"><span>Say Amen Banquet</span></span> <img src="gallery/imagesSm/007.jpg" /> </a> </li>
+        <li data-pile="Say Amen Banquet"> <a href="gallery/imagesLg/008.jpg" rel="prettyPhoto[cat1]" title="Say Amen Banquet"> <span class="pport-info"><span>Say Amen Banquet</span></span> <img src="gallery/imagesSm/008.jpg" /> </a> </li>
+        <li data-pile="Say Amen Banquet"> <a href="gallery/imagesLg/009.jpg" rel="prettyPhoto[cat1]" title="Say Amen Banquet"> <span class="pport-info"><span>Say Amen Banquet</span></span> <img src="gallery/imagesSm/009.jpg" /> </a> </li>
+        <li data-pile="Say Amen Banquet"> <a href="gallery/imagesLg/010.jpg" rel="prettyPhoto[cat1]" title="Say Amen Banquet"> <span class="pport-info"><span>Say Amen Banquet</span></span> <img src="gallery/imagesSm/010.jpg" /> </a> </li>
+        <li data-pile="Say Amen Banquet"> <a href="gallery/imagesLg/011.jpg" rel="prettyPhoto[cat1]" title="Say Amen Banquet"> <span class="pport-info"><span>Say Amen Banquet</span></span> <img src="gallery/imagesSm/011.jpg" /> </a> </li>
+        <li data-pile="Say Amen Banquet"> <a href="gallery/imagesLg/012.jpg" rel="prettyPhoto[cat1]" title="Say Amen Banquet"> <span class="pport-info"><span>Say Amen Banquet</span></span> <img src="gallery/imagesSm/012.jpg" /> </a> </li>
+        <li data-pile="Say Amen Banquet"> <a href="gallery/imagesLg/013.jpg" rel="prettyPhoto[cat1]" title="Say Amen Banquet"> <span class="pport-info"><span>Say Amen Banquet</span></span> <img src="gallery/imagesSm/013.jpg" /> </a> </li>
+        <li data-pile="Say Amen Banquet"> <a href="gallery/imagesLg/014.jpg" rel="prettyPhoto[cat1]" title="Say Amen Banquet"> <span class="pport-info"><span>Say Amen Banquet</span></span> <img src="gallery/imagesSm/014.jpg" /> </a> </li>
+        <li data-pile="Say Amen Banquet"> <a href="gallery/imagesLg/015.jpg" rel="prettyPhoto[cat1]" title="Say Amen Banquet"> <span class="pport-info"><span>Say Amen Banquet</span></span> <img src="gallery/imagesSm/015.jpg" /> </a> </li>
+        <li data-pile="Say Amen Banquet"> <a href="gallery/imagesLg/016.jpg" rel="prettyPhoto[cat1]" title="Say Amen Banquet"> <span class="pport-info"><span>Say Amen Banquet</span></span> <img src="gallery/imagesSm/016.jpg" /> </a> </li>
+        <li data-pile="Say Amen Banquet"> <a href="gallery/imagesLg/017.jpg" rel="prettyPhoto[cat1]" title="Say Amen Banquet"> <span class="pport-info"><span>Say Amen Banquet</span></span> <img src="gallery/imagesSm/017.jpg" /> </a> </li>
+        <li data-pile="Say Amen Banquet"> <a href="gallery/imagesLg/018.jpg" rel="prettyPhoto[cat1]" title="Say Amen Banquet"> <span class="pport-info"><span>Say Amen Banquet</span></span> <img src="gallery/imagesSm/018.jpg" /> </a> </li>
+        <li data-pile="Say Amen Banquet"> <a href="gallery/imagesLg/019.jpg" rel="prettyPhoto[cat1]" title="Say Amen Banquet"> <span class="pport-info"><span>Say Amen Banquet</span></span> <img src="gallery/imagesSm/019.jpg" /> </a> </li>
+        <li data-pile="Say Amen Banquet"> <a href="gallery/imagesLg/020.jpg" rel="prettyPhoto[cat1]" title="Say Amen Banquet"> <span class="pport-info"><span>Say Amen Banquet</span></span> <img src="gallery/imagesSm/020.jpg" /> </a> </li>
+        <li data-pile="Say Amen Banquet"> <a href="gallery/imagesLg/021.jpg" rel="prettyPhoto[cat1]" title="Say Amen Banquet"> <span class="pport-info"><span>Say Amen Banquet</span></span> <img src="gallery/imagesSm/021.jpg" /> </a> </li>
+        <li data-pile="Say Amen Banquet"> <a href="gallery/imagesLg/022.jpg" rel="prettyPhoto[cat1]" title="Say Amen Banquet"> <span class="pport-info"><span>Say Amen Banquet</span></span> <img src="gallery/imagesSm/022.jpg" /> </a> </li>
+        <li data-pile="Say Amen Banquet"> <a href="gallery/imagesLg/023.jpg" rel="prettyPhoto[cat1]" title="Say Amen Banquet"> <span class="pport-info"><span>Say Amen Banquet</span></span> <img src="gallery/imagesSm/023.jpg" /> </a> </li>
+        <li data-pile="Say Amen Banquet"> <a href="gallery/imagesLg/024.jpg" rel="prettyPhoto[cat1]" title="Say Amen Banquet"> <span class="pport-info"><span>Say Amen Banquet</span></span> <img src="gallery/imagesSm/024.jpg" /> </a> </li>
+        <li data-pile="Say Amen Banquet"> <a href="gallery/imagesLg/025.jpg" rel="prettyPhoto[cat1]" title="Say Amen Banquet"> <span class="pport-info"><span>Say Amen Banquet</span></span> <img src="gallery/imagesSm/025.jpg" /> </a> </li>
+        <li data-pile="Say Amen Banquet"> <a href="gallery/imagesLg/026.jpg" rel="prettyPhoto[cat1]" title="Say Amen Banquet"> <span class="pport-info"><span>Say Amen Banquet</span></span> <img src="gallery/imagesSm/026.jpg" /> </a> </li>
+        <li data-pile="Say Amen Banquet"> <a href="gallery/imagesLg/027.jpg" rel="prettyPhoto[cat1]" title="Say Amen Banquet"> <span class="pport-info"><span>Say Amen Banquet</span></span> <img src="gallery/imagesSm/027.jpg" /> </a> </li>
+        <li data-pile="Say Amen Banquet"> <a href="gallery/imagesLg/110.jpg" rel="prettyPhoto[cat1]" title="Say Amen Banquet"> <span class="pport-info"><span>Say Amen Banquet</span></span> <img src="gallery/imagesSm/110.jpg" /> </a> </li>
+        <li data-pile="Say Amen Banquet"> <a href="gallery/imagesLg/716.jpg" rel="prettyPhoto[cat1]" title="Say Amen Banquet"> <span class="pport-info"><span>Say Amen Banquet</span></span> <img src="gallery/imagesSm/716.jpg" /> </a> </li>
+        
+        
+                <!-- Say Amen Banquet 2013-->
+        
+        <li data-pile="Say Amen Banquet 2013"> <a href="gallery/imagesLg/764_sayamen2013.jpg" rel="prettyPhoto[cat1]" title="Clifton Davis with Ameren and Mathews-Dickey brass"> <span class="pport-info"><span>Say Amen Banquet 2013</span></span> <img src="gallery/imagesSm/764_sayamen2013.jpg" /> </a> </li>
+              <li data-pile="Say Amen Banquet 2013"> <a href="gallery/imagesLg/765_sayamen2013.jpg" rel="prettyPhoto[cat1]" title="Say Amen Banquet 2013"> <span class="pport-info"><span>Say Amen Banquet 2013</span></span> <img src="gallery/imagesSm/765_sayamen2013.jpg" /> </a> </li>
+        <li data-pile="Say Amen Banquet 2013"> <a href="gallery/imagesLg/766_sayamen2013.jpg" rel="prettyPhoto[cat1]" title="Say Amen Banquet 2013"> <span class="pport-info"><span>Say Amen Banquet 2013</span></span> <img src="gallery/imagesSm/766_sayamen2013.jpg" /> </a> </li>
+        <li data-pile="Say Amen Banquet 2013"> <a href="gallery/imagesLg/767_sayamen2013.jpg" rel="prettyPhoto[cat1]" title="Say Amen Banquet 2013"> <span class="pport-info"><span>Say Amen Banquet 2013</span></span> <img src="gallery/imagesSm/767_sayamen2013.jpg" /> </a> </li>
+        <li data-pile="Say Amen Banquet 2013"> <a href="gallery/imagesLg/768_sayamen2013.jpg" rel="prettyPhoto[cat1]" title="Say Amen Banquet 2013"> <span class="pport-info"><span>Say Amen Banquet 2013</span></span> <img src="gallery/imagesSm/768_sayamen2013.jpg" /> </a> </li>
+        <li data-pile="Say Amen Banquet 2013"> <a href="gallery/imagesLg/769_sayamen2013.jpg" rel="prettyPhoto[cat1]" title="Say Amen Banquet 2013"> <span class="pport-info"><span>Say Amen Banquet 2013</span></span> <img src="gallery/imagesSm/769_sayamen2013.jpg" /> </a> </li>
+        <li data-pile="Say Amen Banquet 2013"> <a href="gallery/imagesLg/770_sayamen2013.jpg" rel="prettyPhoto[cat1]" title="Say Amen Banquet 2013"> <span class="pport-info"><span>Say Amen Banquet 2013</span></span> <img src="gallery/imagesSm/770_sayamen2013.jpg" /> </a> </li>
+        <li data-pile="Say Amen Banquet 2013"> <a href="gallery/imagesLg/771_sayamen2013.jpg" rel="prettyPhoto[cat1]" title="Say Amen Banquet 2013"> <span class="pport-info"><span>Say Amen Banquet 2013</span></span> <img src="gallery/imagesSm/771_sayamen2013.jpg" /> </a> </li>
+        <li data-pile="Say Amen Banquet 2013"> <a href="gallery/imagesLg/772_sayamen2013.jpg" rel="prettyPhoto[cat1]" title="Say Amen Banquet 2013"> <span class="pport-info"><span>Say Amen Banquet 2013</span></span> <img src="gallery/imagesSm/772_sayamen2013.jpg" /> </a> </li>
+        <li data-pile="Say Amen Banquet 2013"> <a href="gallery/imagesLg/773_sayamen2013.jpg" rel="prettyPhoto[cat1]" title="Say Amen Banquet 2013"> <span class="pport-info"><span>Say Amen Banquet 2013</span></span> <img src="gallery/imagesSm/773_sayamen2013.jpg" /> </a> </li>
+        <li data-pile="Say Amen Banquet 2013"> <a href="gallery/imagesLg/774_sayamen2013.jpg" rel="prettyPhoto[cat1]" title="Say Amen Banquet 2013"> <span class="pport-info"><span>Say Amen Banquet 2013</span></span> <img src="gallery/imagesSm/774_sayamen2013.jpg" /> </a> </li>
+              <li data-pile="Say Amen Banquet 2013"> <a href="gallery/imagesLg/775_sayamen2013.jpg" rel="prettyPhoto[cat1]" title="Say Amen Banquet 2013"> <span class="pport-info"><span>Say Amen Banquet 2013</span></span> <img src="gallery/imagesSm/775_sayamen2013.jpg" /> </a> </li>
+        <li data-pile="Say Amen Banquet 2013"> <a href="gallery/imagesLg/776_sayamen2013.jpg" rel="prettyPhoto[cat1]" title="Say Amen Banquet 2013"> <span class="pport-info"><span>Say Amen Banquet 2013</span></span> <img src="gallery/imagesSm/776_sayamen2013.jpg" /> </a> </li>
+        <li data-pile="Say Amen Banquet 2013"> <a href="gallery/imagesLg/777_sayamen2013.jpg" rel="prettyPhoto[cat1]" title="Say Amen Banquet 2013"> <span class="pport-info"><span>Say Amen Banquet 2013</span></span> <img src="gallery/imagesSm/777_sayamen2013.jpg" /> </a> </li>
+        <li data-pile="Say Amen Banquet 2013"> <a href="gallery/imagesLg/778_sayamen2013.jpg" rel="prettyPhoto[cat1]" title="Say Amen Banquet 2013"> <span class="pport-info"><span>Say Amen Banquet 2013</span></span> <img src="gallery/imagesSm/778_sayamen2013.jpg" /> </a> </li>
+        <li data-pile="Say Amen Banquet 2013"> <a href="gallery/imagesLg/779_sayamen2013.jpg" rel="prettyPhoto[cat1]" title="Say Amen Banquet 2013"> <span class="pport-info"><span>Say Amen Banquet 2013</span></span> <img src="gallery/imagesSm/779_sayamen2013.jpg" /> </a> </li>
+        <li data-pile="Say Amen Banquet 2013"> <a href="gallery/imagesLg/780_sayamen2013.jpg" rel="prettyPhoto[cat1]" title="Say Amen Banquet 2013"> <span class="pport-info"><span>Say Amen Banquet 2013</span></span> <img src="gallery/imagesSm/780_sayamen2013.jpg" /> </a> </li>
+        <li data-pile="Say Amen Banquet 2013"> <a href="gallery/imagesLg/781_sayamen2013.jpg" rel="prettyPhoto[cat1]" title="Say Amen Banquet 2013"> <span class="pport-info"><span>Say Amen Banquet 2013</span></span> <img src="gallery/imagesSm/781_sayamen2013.jpg" /> </a> </li>
+        <li data-pile="Say Amen Banquet 2013"> <a href="gallery/imagesLg/782_sayamen2013.jpg" rel="prettyPhoto[cat1]" title="Say Amen Banquet 2013"> <span class="pport-info"><span>Say Amen Banquet 2013</span></span> <img src="gallery/imagesSm/782_sayamen2013.jpg" /> </a> </li>
+        <li data-pile="Say Amen Banquet 2013"> <a href="gallery/imagesLg/783_sayamen2013.jpg" rel="prettyPhoto[cat1]" title="Say Amen Banquet 2013"> <span class="pport-info"><span>Say Amen Banquet 2013</span></span> <img src="gallery/imagesSm/783_sayamen2013.jpg" /> </a> </li>
+        
+        
+                <!-- Sheer Elegance -->
+        
+        <li data-pile="Sheer Elegance"> <a href="gallery/imagesLg/503.jpg" rel="prettyPhoto[cat5]" title="Sheer Elegance"> <span class="pport-info"><span>Sheer Elegance</span></span> <img src="gallery/imagesSm/503.jpg" /> </a> </li>
+        <li data-pile="Sheer Elegance"> <a href="gallery/imagesLg/505.jpg" rel="prettyPhoto[cat5]" title="Sheer Elegance"> <span class="pport-info"><span>Sheer Elegance</span></span> <img src="gallery/imagesSm/505.jpg" /> </a> </li>
+        <li data-pile="Sheer Elegance"> <a href="gallery/imagesLg/511.jpg" rel="prettyPhoto[cat5]" title="Sheer Elegance"> <span class="pport-info"><span>Sheer Elegance</span></span> <img src="gallery/imagesSm/511.jpg" /> </a> </li>
+        <li data-pile="Sheer Elegance"> <a href="gallery/imagesLg/513.jpg" rel="prettyPhoto[cat5]" title="Sheer Elegance"> <span class="pport-info"><span>Sheer Elegance</span></span> <img src="gallery/imagesSm/513.jpg" /> </a> </li>
+        <li data-pile="Sheer Elegance"> <a href="gallery/imagesLg/539.jpg" rel="prettyPhoto[cat5]" title="Sheer Elegance"> <span class="pport-info"><span>Sheer Elegance</span></span> <img src="gallery/imagesSm/539.jpg" /> </a> </li>
+        <li data-pile="Sheer Elegance"> <a href="gallery/imagesLg/514.jpg" rel="prettyPhoto[cat5]" title="Sheer Elegance"> <span class="pport-info"><span>Sheer Elegance</span></span> <img src="gallery/imagesSm/514.jpg" /> </a> </li>
+        <li data-pile="Sheer Elegance"> <a href="gallery/imagesLg/515.jpg" rel="prettyPhoto[cat5]" title="Sheer Elegance"> <span class="pport-info"><span>Sheer Elegance</span></span> <img src="gallery/imagesSm/515.jpg" /> </a> </li>
+        <li data-pile="Sheer Elegance"> <a href="gallery/imagesLg/509.jpg" rel="prettyPhoto[cat5]" title="Sheer Elegance"> <span class="pport-info"><span>Sheer Elegance</span></span> <img src="gallery/imagesSm/509.jpg" /> </a> </li>
+        <li data-pile="Sheer Elegance"> <a href="gallery/imagesLg/545.jpg" rel="prettyPhoto[cat5]" title="Sheer Elegance"> <span class="pport-info"><span>Sheer Elegance</span></span> <img src="gallery/imagesSm/545.jpg" /> </a> </li>
+        <li data-pile="Sheer Elegance"> <a href="gallery/imagesLg/548.jpg" rel="prettyPhoto[cat5]" title="Sheer Elegance"> <span class="pport-info"><span>Sheer Elegance</span></span> <img src="gallery/imagesSm/548.jpg" /> </a> </li>
+        <li data-pile="Sheer Elegance"> <a href="gallery/imagesLg/563.jpg" rel="prettyPhoto[cat5]" title="Sheer Elegance"> <span class="pport-info"><span>Sheer Elegance</span></span> <img src="gallery/imagesSm/563.jpg" /> </a> </li>
+        <li data-pile="Sheer Elegance"> <a href="gallery/imagesLg/567.jpg" rel="prettyPhoto[cat5]" title="Sheer Elegance"> <span class="pport-info"><span>Sheer Elegance</span></span> <img src="gallery/imagesSm/567.jpg" /> </a> </li>
+        <li data-pile="Sheer Elegance"> <a href="gallery/imagesLg/609.jpg" rel="prettyPhoto[cat5]" title="Sheer Elegance"> <span class="pport-info"><span>Sheer Elegance</span></span> <img src="gallery/imagesSm/609.jpg" /> </a> </li>
+        <li data-pile="Sheer Elegance"> <a href="gallery/imagesLg/610.jpg" rel="prettyPhoto[cat5]" title="Sheer Elegance"> <span class="pport-info"><span>Sheer Elegance</span></span> <img src="gallery/imagesSm/610.jpg" /> </a> </li>
+        <li data-pile="Sheer Elegance"> <a href="gallery/imagesLg/611.jpg" rel="prettyPhoto[cat5]" title="Sheer Elegance"> <span class="pport-info"><span>Sheer Elegance</span></span> <img src="gallery/imagesSm/611.jpg" /> </a> </li>
+        <li data-pile="Sheer Elegance"> <a href="gallery/imagesLg/612.jpg" rel="prettyPhoto[cat5]" title="Sheer Elegance"> <span class="pport-info"><span>Sheer Elegance</span></span> <img src="gallery/imagesSm/612.jpg" /> </a> </li>
+        <li data-pile="Sheer Elegance"> <a href="gallery/imagesLg/613.jpg" rel="prettyPhoto[cat5]" title="Sheer Elegance"> <span class="pport-info"><span>Sheer Elegance</span></span> <img src="gallery/imagesSm/613.jpg" /> </a> </li>
+        <li data-pile="Sheer Elegance"> <a href="gallery/imagesLg/614.jpg" rel="prettyPhoto[cat5]" title="Sheer Elegance"> <span class="pport-info"><span>Sheer Elegance</span></span> <img src="gallery/imagesSm/614.jpg" /> </a> </li>   
+        <li data-pile="Sheer Elegance"> <a href="gallery/imagesLg/629.jpg" rel="prettyPhoto[cat5]" title="Sheer Elegance"> <span class="pport-info"><span>Sheer Elegance</span></span> <img src="gallery/imagesSm/629.jpg" /> </a> </li> 
+        <li data-pile="Sheer Elegance"> <a href="gallery/imagesLg/634.jpg" rel="prettyPhoto[cat5]" title="Sheer Elegance"> <span class="pport-info"><span>Sheer Elegance</span></span> <img src="gallery/imagesSm/634.jpg" /> </a> </li> 
+        <li data-pile="Sheer Elegance"> <a href="gallery/imagesLg/635.jpg" rel="prettyPhoto[cat5]" title="Sheer Elegance"> <span class="pport-info"><span>Sheer Elegance</span></span> <img src="gallery/imagesSm/635.jpg" /> </a> </li>
+        <li data-pile="Sheer Elegance"> <a href="gallery/imagesLg/636.jpg" rel="prettyPhoto[cat5]" title="Sheer Elegance"> <span class="pport-info"><span>Sheer Elegance</span></span> <img src="gallery/imagesSm/636.jpg" /> </a> </li> 
+        <li data-pile="Sheer Elegance"> <a href="gallery/imagesLg/643.jpg" rel="prettyPhoto[cat5]" title="Sheer Elegance"> <span class="pport-info"><span>Sheer Elegance</span></span> <img src="gallery/imagesSm/643.jpg" /> </a> </li> 
+        <li data-pile="Sheer Elegance"> <a href="gallery/imagesLg/646.jpg" rel="prettyPhoto[cat5]" title="Sheer Elegance"> <span class="pport-info"><span>Sheer Elegance</span></span> <img src="gallery/imagesSm/646.jpg" /> </a> </li>
+        <li data-pile="Sheer Elegance"> <a href="gallery/imagesLg/647.jpg" rel="prettyPhoto[cat5]" title="Sheer Elegance"> <span class="pport-info"><span>Sheer Elegance</span></span> <img src="gallery/imagesSm/647.jpg" /> </a> </li>
+        <li data-pile="Sheer Elegance"> <a href="gallery/imagesLg/648.jpg" rel="prettyPhoto[cat5]" title="Sheer Elegance"> <span class="pport-info"><span>Sheer Elegance</span></span> <img src="gallery/imagesSm/648.jpg" /> </a> </li>
+        <li data-pile="Sheer Elegance"> <a href="gallery/imagesLg/649.jpg" rel="prettyPhoto[cat5]" title="Sheer Elegance"> <span class="pport-info"><span>Sheer Elegance</span></span> <img src="gallery/imagesSm/649.jpg" /> </a> </li>
+        <li data-pile="Sheer Elegance"> <a href="gallery/imagesLg/651.jpg" rel="prettyPhoto[cat5]" title="Sheer Elegance"> <span class="pport-info"><span>Sheer Elegance</span></span> <img src="gallery/imagesSm/651.jpg" /> </a> </li>
+        <li data-pile="Sheer Elegance"> <a href="gallery/imagesLg/518.jpg" rel="prettyPhoto[cat5]" title="Sheer Elegance"> <span class="pport-info"><span>Sheer Elegance</span></span> <img src="gallery/imagesSm/518.jpg" /> </a> </li>
+        <li data-pile="Sheer Elegance"> <a href="gallery/imagesLg/502.jpg" rel="prettyPhoto[cat5]" title="Sheer Elegance"> <span class="pport-info"><span>Sheer Elegance</span></span> <img src="gallery/imagesSm/502.jpg" /> </a> </li>
+		<li data-pile="Sheer Elegance"> <a href="gallery/imagesLg/504.jpg" rel="prettyPhoto[cat5]" title="Sheer Elegance"> <span class="pport-info"><span>Sheer Elegance</span></span> <img src="gallery/imagesSm/504.jpg" /> </a> </li>
+		<li data-pile="Sheer Elegance"> <a href="gallery/imagesLg/506.jpg" rel="prettyPhoto[cat5]" title="Sheer Elegance"> <span class="pport-info"><span>Sheer Elegance</span></span> <img src="gallery/imagesSm/506.jpg" /> </a> </li>
+        <li data-pile="Sheer Elegance"> <a href="gallery/imagesLg/507.jpg" rel="prettyPhoto[cat5]" title="Sheer Elegance"> <span class="pport-info"><span>Sheer Elegance</span></span> <img src="gallery/imagesSm/507.jpg" /> </a> </li>
+        <li data-pile="Sheer Elegance"> <a href="gallery/imagesLg/508.jpg" rel="prettyPhoto[cat5]" title="Sheer Elegance"> <span class="pport-info"><span>Sheer Elegance</span></span> <img src="gallery/imagesSm/508.jpg" /> </a> </li>
+        <li data-pile="Sheer Elegance"> <a href="gallery/imagesLg/510.jpg" rel="prettyPhoto[cat5]" title="Sheer Elegance"> <span class="pport-info"><span>Sheer Elegance</span></span> <img src="gallery/imagesSm/510.jpg" /> </a> </li>
+        <li data-pile="Sheer Elegance"> <a href="gallery/imagesLg/512.jpg" rel="prettyPhoto[cat5]" title="Sheer Elegance"> <span class="pport-info"><span>Sheer Elegance</span></span> <img src="gallery/imagesSm/512.jpg" /> </a> </li>
+		<li data-pile="Sheer Elegance"> <a href="gallery/imagesLg/516.jpg" rel="prettyPhoto[cat5]" title="Sheer Elegance"> <span class="pport-info"><span>Sheer Elegance</span></span> <img src="gallery/imagesSm/516.jpg" /> </a> </li>
+        <li data-pile="Sheer Elegance"> <a href="gallery/imagesLg/517.jpg" rel="prettyPhoto[cat5]" title="Sheer Elegance"> <span class="pport-info"><span>Sheer Elegance</span></span> <img src="gallery/imagesSm/517.jpg" /> </a> </li>
+        <li data-pile="Sheer Elegance"> <a href="gallery/imagesLg/538.jpg" rel="prettyPhoto[cat5]" title="Sheer Elegance"> <span class="pport-info"><span>Sheer Elegance</span></span> <img src="gallery/imagesSm/538.jpg" /> </a> </li>
+
+
+        <!-- Baseball Program -->
+        
+        <li data-pile="Baseball Program"> <a href="gallery/imagesLg/150.jpg" rel="prettyPhoto[cat2]" title="Baseball Program"> <span class="pport-info"><span>Baseball Program</span></span> <img src="gallery/imagesSm/150.jpg" /> </a> </li>
+        <li data-pile="Baseball Program"> <a href="gallery/imagesLg/151.jpg" rel="prettyPhoto[cat2]" title="Baseball Program"> <span class="pport-info"><span>Baseball Program</span></span> <img src="gallery/imagesSm/151.jpg" /> </a> </li>
+        <li data-pile="Baseball Program"> <a href="gallery/imagesLg/152.jpg" rel="prettyPhoto[cat2]" title="Baseball Program"> <span class="pport-info"><span>Baseball Program</span></span> <img src="gallery/imagesSm/152.jpg" /> </a> </li>
+        <li data-pile="Baseball Program"> <a href="gallery/imagesLg/153.jpg" rel="prettyPhoto[cat2]" title="Baseball Program"> <span class="pport-info"><span>Baseball Program</span></span> <img src="gallery/imagesSm/153.jpg" /> </a> </li>
+        <li data-pile="Baseball Program"> <a href="gallery/imagesLg/154.jpg" rel="prettyPhoto[cat2]" title="Baseball Program"> <span class="pport-info"><span>Baseball Program</span></span> <img src="gallery/imagesSm/154.jpg" /> </a> </li>
+        <li data-pile="Baseball Program"> <a href="gallery/imagesLg/155.jpg" rel="prettyPhoto[cat2]" title="Baseball Program"> <span class="pport-info"><span>Baseball Program</span></span> <img src="gallery/imagesSm/155.jpg" /> </a> </li>
+        <li data-pile="Baseball Program"> <a href="gallery/imagesLg/156.jpg" rel="prettyPhoto[cat2]" title="Baseball Program"> <span class="pport-info"><span>Baseball Program</span></span> <img src="gallery/imagesSm/156.jpg" /> </a> </li>
+        <li data-pile="Baseball Program"> <a href="gallery/imagesLg/157.jpg" rel="prettyPhoto[cat2]" title="Baseball Program"> <span class="pport-info"><span>Baseball Program</span></span> <img src="gallery/imagesSm/157.jpg" /> </a> </li>
+        <li data-pile="Baseball Program"> <a href="gallery/imagesLg/158.jpg" rel="prettyPhoto[cat2]" title="Baseball Program"> <span class="pport-info"><span>Baseball Program</span></span> <img src="gallery/imagesSm/158.jpg" /> </a> </li>
+        <li data-pile="Baseball Program"> <a href="gallery/imagesLg/159.jpg" rel="prettyPhoto[cat2]" title="Baseball Program"> <span class="pport-info"><span>Baseball Program</span></span> <img src="gallery/imagesSm/159.jpg" /> </a> </li>
+        <li data-pile="Baseball Program"> <a href="gallery/imagesLg/160.jpg" rel="prettyPhoto[cat2]" title="Baseball Program"> <span class="pport-info"><span>Baseball Program</span></span> <img src="gallery/imagesSm/160.jpg" /> </a> </li>
+        <li data-pile="Baseball Program"> <a href="gallery/imagesLg/161.jpg" rel="prettyPhoto[cat2]" title="Baseball Program"> <span class="pport-info"><span>Baseball Program</span></span> <img src="gallery/imagesSm/161.jpg" /> </a> </li>
+        <li data-pile="Baseball Program"> <a href="gallery/imagesLg/162.jpg" rel="prettyPhoto[cat2]" title="Baseball Program"> <span class="pport-info"><span>Baseball Program</span></span> <img src="gallery/imagesSm/162.jpg" /> </a> </li>
+        <li data-pile="Baseball Program"> <a href="gallery/imagesLg/163.jpg" rel="prettyPhoto[cat2]" title="Baseball Program"> <span class="pport-info"><span>Baseball Program</span></span> <img src="gallery/imagesSm/163.jpg" /> </a> </li>
+        <li data-pile="Baseball Program"> <a href="gallery/imagesLg/164.jpg" rel="prettyPhoto[cat2]" title="Baseball Program"> <span class="pport-info"><span>Baseball Program</span></span> <img src="gallery/imagesSm/164.jpg" /> </a> </li>
+        <li data-pile="Baseball Program"> <a href="gallery/imagesLg/165.jpg" rel="prettyPhoto[cat2]" title="Baseball Program"> <span class="pport-info"><span>Baseball Program</span></span> <img src="gallery/imagesSm/165.jpg" /> </a> </li>
+        <li data-pile="Baseball Program"> <a href="gallery/imagesLg/166.jpg" rel="prettyPhoto[cat2]" title="Baseball Program"> <span class="pport-info"><span>Baseball Program</span></span> <img src="gallery/imagesSm/166.jpg" /> </a> </li>
+        <li data-pile="Baseball Program"> <a href="gallery/imagesLg/167.jpg" rel="prettyPhoto[cat2]" title="Baseball Program"> <span class="pport-info"><span>Baseball Program</span></span> <img src="gallery/imagesSm/167.jpg" /> </a> </li>
+        <li data-pile="Baseball Program"> <a href="gallery/imagesLg/168.jpg" rel="prettyPhoto[cat2]" title="Baseball Program"> <span class="pport-info"><span>Baseball Program</span></span> <img src="gallery/imagesSm/168.jpg" /> </a> </li>
+        <li data-pile="Baseball Program"> <a href="gallery/imagesLg/169.jpg" rel="prettyPhoto[cat2]" title="Baseball Program"> <span class="pport-info"><span>Baseball Program</span></span> <img src="gallery/imagesSm/169.jpg" /> </a> </li>
+        <li data-pile="Baseball Program"> <a href="gallery/imagesLg/170.jpg" rel="prettyPhoto[cat2]" title="Baseball Program"> <span class="pport-info"><span>Baseball Program</span></span> <img src="gallery/imagesSm/170.jpg" /> </a> </li>
+        <li data-pile="Baseball Program"> <a href="gallery/imagesLg/171.jpg" rel="prettyPhoto[cat2]" title="Baseball Program"> <span class="pport-info"><span>Baseball Program</span></span> <img src="gallery/imagesSm/171.jpg" /> </a> </li>
+        <li data-pile="Baseball Program"> <a href="gallery/imagesLg/172.jpg" rel="prettyPhoto[cat2]" title="Baseball Program"> <span class="pport-info"><span>Baseball Program</span></span> <img src="gallery/imagesSm/172.jpg" /> </a> </li>
+        <li data-pile="Baseball Program"> <a href="gallery/imagesLg/173.jpg" rel="prettyPhoto[cat2]" title="Baseball Program"> <span class="pport-info"><span>Baseball Program</span></span> <img src="gallery/imagesSm/173.jpg" /> </a> </li>
+        <li data-pile="Baseball Program"> <a href="gallery/imagesLg/174.jpg" rel="prettyPhoto[cat2]" title="Baseball Program"> <span class="pport-info"><span>Baseball Program</span></span> <img src="gallery/imagesSm/174.jpg" /> </a> </li>
+        <li data-pile="Baseball Program"> <a href="gallery/imagesLg/175.jpg" rel="prettyPhoto[cat2]" title="Baseball Program"> <span class="pport-info"><span>Baseball Program</span></span> <img src="gallery/imagesSm/175.jpg" /> </a> </li>
+        <li data-pile="Baseball Program"> <a href="gallery/imagesLg/176.jpg" rel="prettyPhoto[cat2]" title="Baseball Program"> <span class="pport-info"><span>Baseball Program</span></span> <img src="gallery/imagesSm/176.jpg" /> </a> </li>
+        <li data-pile="Baseball Program"> <a href="gallery/imagesLg/177.jpg" rel="prettyPhoto[cat2]" title="Baseball Program"> <span class="pport-info"><span>Baseball Program</span></span> <img src="gallery/imagesSm/177.jpg" /> </a> </li>
+        <li data-pile="Baseball Program"> <a href="gallery/imagesLg/178.jpg" rel="prettyPhoto[cat2]" title="Baseball Program"> <span class="pport-info"><span>Baseball Program</span></span> <img src="gallery/imagesSm/178.jpg" /> </a> </li>
+        <li data-pile="Baseball Program"> <a href="gallery/imagesLg/179.jpg" rel="prettyPhoto[cat2]" title="Baseball Program"> <span class="pport-info"><span>Baseball Program</span></span> <img src="gallery/imagesSm/179.jpg" /> </a> </li>
+        <li data-pile="Baseball Program"> <a href="gallery/imagesLg/180.jpg" rel="prettyPhoto[cat2]" title="Baseball Program"> <span class="pport-info"><span>Baseball Program</span></span> <img src="gallery/imagesSm/180.jpg" /> </a> </li>
+        <li data-pile="Baseball Program"> <a href="gallery/imagesLg/181.jpg" rel="prettyPhoto[cat2]" title="Baseball Program"> <span class="pport-info"><span>Baseball Program</span></span> <img src="gallery/imagesSm/181.jpg" /> </a> </li>
+        <li data-pile="Baseball Program"> <a href="gallery/imagesLg/183.jpg" rel="prettyPhoto[cat2]" title="Baseball Program"> <span class="pport-info"><span>Baseball Program</span></span> <img src="gallery/imagesSm/183.jpg" /> </a> </li>
+        <li data-pile="Baseball Program"> <a href="gallery/imagesLg/184.jpg" rel="prettyPhoto[cat2]" title="Baseball Program"> <span class="pport-info"><span>Baseball Program</span></span> <img src="gallery/imagesSm/184.jpg" /> </a> </li>
+        <li data-pile="Baseball Program"> <a href="gallery/imagesLg/185.jpg" rel="prettyPhoto[cat2]" title="Baseball Program"> <span class="pport-info"><span>Baseball Program</span></span> <img src="gallery/imagesSm/185.jpg" /> </a> </li>
+        <li data-pile="Baseball Program"> <a href="gallery/imagesLg/186.jpg" rel="prettyPhoto[cat2]" title="Baseball Program"> <span class="pport-info"><span>Baseball Program</span></span> <img src="gallery/imagesSm/186.jpg" /> </a> </li>
+        <li data-pile="Baseball Program"> <a href="gallery/imagesLg/187.jpg" rel="prettyPhoto[cat2]" title="Baseball Program"> <span class="pport-info"><span>Baseball Program</span></span> <img src="gallery/imagesSm/187.jpg" /> </a> </li>
+        <li data-pile="Baseball Program"> <a href="gallery/imagesLg/188.jpg" rel="prettyPhoto[cat2]" title="Baseball Program"> <span class="pport-info"><span>Baseball Program</span></span> <img src="gallery/imagesSm/188.jpg" /> </a> </li>
+
+        <!-- Karate Program -->
+        <li data-pile="Karate Program"> <a href="gallery/imagesLg/419.jpg" rel="prettyPhoto[cat3]" title="Karate Program"> <span class="pport-info"><span>Karate Program</span></span> <img src="gallery/imagesSm/419.jpg" /> </a> </li>
+        <li data-pile="Karate Program"> <a href="gallery/imagesLg/420.jpg" rel="prettyPhoto[cat3]" title="Karate Program"> <span class="pport-info"><span>Karate Program</span></span> <img src="gallery/imagesSm/420.jpg" /> </a> </li>
+        <li data-pile="Karate Program"> <a href="gallery/imagesLg/421.jpg" rel="prettyPhoto[cat3]" title="Karate Program"> <span class="pport-info"><span>Karate Program</span></span> <img src="gallery/imagesSm/421.jpg" /> </a> </li>
+        <li data-pile="Karate Program"> <a href="gallery/imagesLg/422.jpg" rel="prettyPhoto[cat3]" title="Karate Program"> <span class="pport-info"><span>Karate Program</span></span> <img src="gallery/imagesSm/422.jpg" /> </a> </li>
+        <li data-pile="Karate Program"> <a href="gallery/imagesLg/423.jpg" rel="prettyPhoto[cat3]" title="Karate Program"> <span class="pport-info"><span>Karate Program</span></span> <img src="gallery/imagesSm/423.jpg" /> </a> </li>
+        <li data-pile="Karate Program"> <a href="gallery/imagesLg/424.jpg" rel="prettyPhoto[cat3]" title="Karate Program"> <span class="pport-info"><span>Karate Program</span></span> <img src="gallery/imagesSm/424.jpg" /> </a> </li>
+        <li data-pile="Karate Program"> <a href="gallery/imagesLg/425.jpg" rel="prettyPhoto[cat3]" title="Karate Program"> <span class="pport-info"><span>Karate Program</span></span> <img src="gallery/imagesSm/425.jpg" /> </a> </li>
+        <li data-pile="Karate Program"> <a href="gallery/imagesLg/426.jpg" rel="prettyPhoto[cat3]" title="Karate Program"> <span class="pport-info"><span>Karate Program</span></span> <img src="gallery/imagesSm/426.jpg" /> </a> </li>
+        <li data-pile="Karate Program"> <a href="gallery/imagesLg/427.jpg" rel="prettyPhoto[cat3]" title="Karate Program"> <span class="pport-info"><span>Karate Program</span></span> <img src="gallery/imagesSm/427.jpg" /> </a> </li>
+        <li data-pile="Karate Program"> <a href="gallery/imagesLg/428.jpg" rel="prettyPhoto[cat3]" title="Karate Program"> <span class="pport-info"><span>Karate Program</span></span> <img src="gallery/imagesSm/428.jpg" /> </a> </li>
+        <li data-pile="Karate Program"> <a href="gallery/imagesLg/429.jpg" rel="prettyPhoto[cat3]" title="Karate Program"> <span class="pport-info"><span>Karate Program</span></span> <img src="gallery/imagesSm/429.jpg" /> </a> </li>
+        <li data-pile="Karate Program"> <a href="gallery/imagesLg/430.jpg" rel="prettyPhoto[cat3]" title="Karate Program"> <span class="pport-info"><span>Karate Program</span></span> <img src="gallery/imagesSm/430.jpg" /> </a> </li>
+        <li data-pile="Karate Program"> <a href="gallery/imagesLg/431.jpg" rel="prettyPhoto[cat3]" title="Karate Program"> <span class="pport-info"><span>Karate Program</span></span> <img src="gallery/imagesSm/431.jpg" /> </a> </li>
+        <li data-pile="Karate Program"> <a href="gallery/imagesLg/432.jpg" rel="prettyPhoto[cat3]" title="Karate Program"> <span class="pport-info"><span>Karate Program</span></span> <img src="gallery/imagesSm/432.jpg" /> </a> </li>
+        <li data-pile="Karate Program"> <a href="gallery/imagesLg/433.jpg" rel="prettyPhoto[cat3]" title="Karate Program"> <span class="pport-info"><span>Karate Program</span></span> <img src="gallery/imagesSm/433.jpg" /> </a> </li>
+        <li data-pile="Karate Program"> <a href="gallery/imagesLg/434.jpg" rel="prettyPhoto[cat3]" title="Karate Program"> <span class="pport-info"><span>Karate Program</span></span> <img src="gallery/imagesSm/434.jpg" /> </a> </li>
+         <li data-pile="Karate Program"> <a href="gallery/imagesLg/435.jpg" rel="prettyPhoto[cat3]" title="Karate Program"> <span class="pport-info"><span>Karate Program</span></span> <img src="gallery/imagesSm/435.jpg" /> </a> </li>
+        <li data-pile="Karate Program"> <a href="gallery/imagesLg/436.jpg" rel="prettyPhoto[cat3]" title="Karate Program"> <span class="pport-info"><span>Karate Program</span></span> <img src="gallery/imagesSm/436.jpg" /> </a> </li>
+        <li data-pile="Karate Program"> <a href="gallery/imagesLg/437.jpg" rel="prettyPhoto[cat3]" title="Karate Program"> <span class="pport-info"><span>Karate Program</span></span> <img src="gallery/imagesSm/437.jpg" /> </a> </li>
+        <li data-pile="Karate Program"> <a href="gallery/imagesLg/438.jpg" rel="prettyPhoto[cat3]" title="Karate Program"> <span class="pport-info"><span>Karate Program</span></span> <img src="gallery/imagesSm/438.jpg" /> </a> </li>
+        <li data-pile="Karate Program"> <a href="gallery/imagesLg/439.jpg" rel="prettyPhoto[cat3]" title="Karate Program"> <span class="pport-info"><span>Karate Program</span></span> <img src="gallery/imagesSm/439.jpg" /> </a> </li>
+        <li data-pile="Karate Program"> <a href="gallery/imagesLg/440.jpg" rel="prettyPhoto[cat3]" title="Karate Program"> <span class="pport-info"><span>Karate Program</span></span> <img src="gallery/imagesSm/440.jpg" /> </a> </li>
+         <li data-pile="Karate Program"> <a href="gallery/imagesLg/441.jpg" rel="prettyPhoto[cat3]" title="Karate Program"> <span class="pport-info"><span>Karate Program</span></span> <img src="gallery/imagesSm/441.jpg" /> </a> </li>
+        <li data-pile="Karate Program"> <a href="gallery/imagesLg/442.jpg" rel="prettyPhoto[cat3]" title="Karate Program"> <span class="pport-info"><span>Karate Program</span></span> <img src="gallery/imagesSm/442.jpg" /> </a> </li>
+        <li data-pile="Karate Program"> <a href="gallery/imagesLg/443.jpg" rel="prettyPhoto[cat3]" title="Karate Program"> <span class="pport-info"><span>Karate Program</span></span> <img src="gallery/imagesSm/443.jpg" /> </a> </li>
+        <li data-pile="Karate Program"> <a href="gallery/imagesLg/444.jpg" rel="prettyPhoto[cat3]" title="Karate Program"> <span class="pport-info"><span>Karate Program</span></span> <img src="gallery/imagesSm/444.jpg" /> </a> </li>
+        <li data-pile="Karate Program"> <a href="gallery/imagesLg/445.jpg" rel="prettyPhoto[cat3]" title="Karate Program"> <span class="pport-info"><span>Karate Program</span></span> <img src="gallery/imagesSm/445.jpg" /> </a> </li>
+        <li data-pile="Karate Program"> <a href="gallery/imagesLg/446.jpg" rel="prettyPhoto[cat3]" title="Karate Program"> <span class="pport-info"><span>Karate Program</span></span> <img src="gallery/imagesSm/446.jpg" /> </a> </li>
+        
+        <!-- Cooking Class -->
+        <li data-pile="Cooking Class"> <a href="gallery/imagesLg/389.jpg" rel="prettyPhoto[cat4]" title="Cooking Class"> <span class="pport-info"><span>Cooking Class</span></span> <img src="gallery/imagesSm/389.jpg" /> </a> </li>
+        <li data-pile="Cooking Class"> <a href="gallery/imagesLg/390.jpg" rel="prettyPhoto[cat4]" title="Cooking Class"> <span class="pport-info"><span>Cooking Class</span></span> <img src="gallery/imagesSm/390.jpg" /> </a> </li>
+       <li data-pile="Cooking Class"> <a href="gallery/imagesLg/391.jpg" rel="prettyPhoto[cat4]" title="Cooking Class"> <span class="pport-info"><span>Cooking Class</span></span> <img src="gallery/imagesSm/391.jpg" /> </a> </li>
+       <li data-pile="Cooking Class"> <a href="gallery/imagesLg/409.jpg" rel="prettyPhoto[cat4]" title="Cooking Class"> <span class="pport-info"><span>Cooking Class</span></span> <img src="gallery/imagesSm/409.jpg" /> </a> </li>
+       <li data-pile="Cooking Class"> <a href="gallery/imagesLg/393.jpg" rel="prettyPhoto[cat4]" title="Cooking Class"> <span class="pport-info"><span>Cooking Class</span></span> <img src="gallery/imagesSm/393.jpg" /> </a> </li>
+       <li data-pile="Cooking Class"> <a href="gallery/imagesLg/394.jpg" rel="prettyPhoto[cat4]" title="Cooking Class"> <span class="pport-info"><span>Cooking Class</span></span> <img src="gallery/imagesSm/394.jpg" /> </a> </li>
+       <li data-pile="Cooking Class"> <a href="gallery/imagesLg/395.jpg" rel="prettyPhoto[cat4]" title="Cooking Class"> <span class="pport-info"><span>Cooking Class</span></span> <img src="gallery/imagesSm/395.jpg" /> </a> </li>
+       <li data-pile="Cooking Class"> <a href="gallery/imagesLg/396.jpg" rel="prettyPhoto[cat4]" title="Cooking Class"> <span class="pport-info"><span>Cooking Class</span></span> <img src="gallery/imagesSm/396.jpg" /> </a> </li>
+       <li data-pile="Cooking Class"> <a href="gallery/imagesLg/397.jpg" rel="prettyPhoto[cat4]" title="Cooking Class"> <span class="pport-info"><span>Cooking Class</span></span> <img src="gallery/imagesSm/397.jpg" /> </a> </li>
+       <li data-pile="Cooking Class"> <a href="gallery/imagesLg/398.jpg" rel="prettyPhoto[cat4]" title="Cooking Class"> <span class="pport-info"><span>Cooking Class</span></span> <img src="gallery/imagesSm/398.jpg" /> </a> </li>
+       <li data-pile="Cooking Class"> <a href="gallery/imagesLg/399.jpg" rel="prettyPhoto[cat4]" title="Cooking Class"> <span class="pport-info"><span>Cooking Class</span></span> <img src="gallery/imagesSm/399.jpg" /> </a> </li>
+       <li data-pile="Cooking Class"> <a href="gallery/imagesLg/400.jpg" rel="prettyPhoto[cat4]" title="Cooking Class"> <span class="pport-info"><span>Cooking Class</span></span> <img src="gallery/imagesSm/400.jpg" /> </a> </li>
+       <li data-pile="Cooking Class"> <a href="gallery/imagesLg/392.jpg" rel="prettyPhoto[cat4]" title="Cooking Class"> <span class="pport-info"><span>Cooking Class</span></span> <img src="gallery/imagesSm/392.jpg" /> </a> </li>
+       <li data-pile="Cooking Class"> <a href="gallery/imagesLg/402.jpg" rel="prettyPhoto[cat4]" title="Cooking Class"> <span class="pport-info"><span>Cooking Class</span></span> <img src="gallery/imagesSm/402.jpg" /> </a> </li>
+              <li data-pile="Cooking Class"> <a href="gallery/imagesLg/403.jpg" rel="prettyPhoto[cat4]" title="Cooking Class"> <span class="pport-info"><span>Cooking Class</span></span> <img src="gallery/imagesSm/403.jpg" /> </a> </li>
+       <li data-pile="Cooking Class"> <a href="gallery/imagesLg/404.jpg" rel="prettyPhoto[cat4]" title="Cooking Class"> <span class="pport-info"><span>Cooking Class</span></span> <img src="gallery/imagesSm/404.jpg" /> </a> </li>
+       <li data-pile="Cooking Class"> <a href="gallery/imagesLg/405.jpg" rel="prettyPhoto[cat4]" title="Cooking Class"> <span class="pport-info"><span>Cooking Class</span></span> <img src="gallery/imagesSm/405.jpg" /> </a> </li>
+              <li data-pile="Cooking Class"> <a href="gallery/imagesLg/406.jpg" rel="prettyPhoto[cat4]" title="Cooking Class"> <span class="pport-info"><span>Cooking Class</span></span> <img src="gallery/imagesSm/406.jpg" /> </a> </li>
+       <li data-pile="Cooking Class"> <a href="gallery/imagesLg/407.jpg" rel="prettyPhoto[cat4]" title="Cooking Class"> <span class="pport-info"><span>Cooking Class</span></span> <img src="gallery/imagesSm/407.jpg" /> </a> </li>
+       <li data-pile="Cooking Class"> <a href="gallery/imagesLg/408.jpg" rel="prettyPhoto[cat4]" title="Cooking Class"> <span class="pport-info"><span>Cooking Class</span></span> <img src="gallery/imagesSm/408.jpg" /> </a> </li>
+              <li data-pile="Cooking Class"> <a href="gallery/imagesLg/401.jpg" rel="prettyPhoto[cat4]" title="Cooking Class"> <span class="pport-info"><span>Cooking Class</span></span> <img src="gallery/imagesSm/401.jpg" /> </a> </li>
+
+
+        <!-- Category #6 -->
+       
+        
+        <!-- Category #7 -->
+      </ul>
+    </div>
+  </section>
+</div>
+
+    <p class="copyright">&copy;2013 Mathews-Dickey Boys' &amp; Girls' Club. All Right Reserved.<br /> 
+  Site Designed & Donated by <a href="http://www.daytonohwebdesign.com" target="_blank">Dayton Ohio Web Site Design</a></p>
+<p class="unitedway">Mathews-Dickey Boys' &amp; Girls' Club is a nonprofit 501 (c) (3) United Way member agency that annually provides educational, athletic and cultural enrichment programs to more than 40,000 young people from throughout the St. Louis metropolitan area. For 52 years the Club has taught youth respect, restraint and responsibility so that they may obtain credibility, integrity and accountability. For more information, call Barbara A. Washington or Bill Fronczak at (314) 382-5952, ext. 234. </p>
+  </div>
+    <!-- end .content --></div>
+  <!-- end .container --></div>
+  </div>
+  <!--footer-->
+  <div class="footer">
+  <div class="ftrContent">
+  <div class="topImg"></div>
+  <div class="links">
+  <div class="col1">
+    <h1><strong>ABOUT US</strong></h1>    <p><a href="mission.html">Our Mission</a></p>
+    <p><a href="history.html">History</a></p>
+    <p><a href="board-of-directors.html">Board of Directors</a></p>
+    <p><a href="development-committee.html">Development Committee</a></p>
+    <p><a href="metropolitan-council.html">Metropolitan Council</a></p>
+    <p><a href="youth-leadership.html">Youth Leadership</a></p>
+    <p><a href="staff.html">Staff</a></p>
+    <p><a href="sponsors.html">Sponsors</a></p>
+    <p><a href="alumni-form.html">Alumni</a></p>
+  
+  </div>  <div class="col3">
+    <h1><strong>PROGRAMS</strong></h1>
+    <p><a href="tutoring.html">Volunteer Tutorial Program</a></p>
+    <p><a href="clip.html">Computer Literacy<br />Instruction Program</a></p>
+    <p><a href="urban-music-program.html">Urban Music Program</a></p>
+    <p><a href="girls-program.html">Girl's Program</a></p>
+    <p><a href="sports-program.html">Sports Program</a></p>
+    <p><a href="rbi-program.html">Revising Baseball in the Inner City (RBI) Program</a></p>
+    <p><a href="summer-day-camp.html">Summer Day Camp</a></p>
+    <p><a href="afterschool.html">After School Program</a></p>
+  
+  </div>
+  <div class="col2">
+    <h1><strong>SPECIAL EVENTS</strong></h1>
+    <p><a href="calendar-of-events.html">Calendar of Events</a></p>
+    <p><a href="awards-banquet.html">Awards Banquet</a></p>
+    <p><a href="jack-buck-night.html">Jack Buck Night</a></p>
+    <p><a href="maleness-to-manhood.html">Maleness to Manhood</a></p>
+    <p><a href="safety-weekend.html">Safety Weekend</a></p>
+    <p><a href="say-amen-gala.html">Say Amen Gala</a></p>
+    <p><a href="sheer-elegance.html">Sheer Elegance Fashion Show</a></p>
+    <p><a href="sky-is-the-limit.html">The Sky is the Limit</a></p>
+  
+  </div>
+  <div class="col2">
+    <h1><strong>VOLUNTEERISM</strong></h1>
+    <p><a href="volunteer-administration.html">Administration</a></p>
+    <p><a href="volunteer-education.html">Education</a></p>
+    <p><a href="volunteer-marketing-finance.html">Marketing &amp; Financial<br />Development</a></p>
+    <p><a href="volunteer-public-relations.html">Public Relations &amp; Special Events</a></p>
+    <p><a href="volunteer-coaching-sports.html">Sports &amp; Operations</a></p>
+</div>
+  <div class="col4">
+    <h1><strong>GALLERIES</strong></h1>
+    <p><a href="photo-gallery.html">Photo Gallery</a></p>
+    <p><a href="videos.php">Video Gallery</a></p>
+  
+  </div>
+  <div class="col4">
+    <h1><a href="membership.html"><strong>MEMBERSHIP</strong></a></h1>
+  </div>
+  <div class="colLast">
+    <h1><a href="contact.html"><strong>CONTACT</strong></a></h1>
+  </div>
+  </div>
+  </div>
+  </div>
+</body>
+</html>
