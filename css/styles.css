@@ -68,7 +68,9 @@ ul.myMenu li ul li a:hover {background:#decea8 url(../images/bullets.png)  8px 9
 .content .mainplanned {background: url(../images/main_bkg.png) top left repeat-y; float:left; width: 920px; padding: 0px 40px 0px 30px; clear:both;}
 .content .mainplanned a{color:#990000!important}
 .content .mainplanned li{margin-left: 20px; clear:both;}
-.content .mainSplash {background: url(../images/main_bkg.png) top left repeat-y; float:left; width: 940px; padding: 10px 40px 0px 20px; clear:both;}
+.content .mainSplash {background: url(../images/main_bkg.png) top left repeat-y; float:left; 
+                        width: 951px;
+                        padding: 10px 20px 0px 20px; clear:both;}
 .content .mainSplash a { text-decoration: underline; color: #bc8643; }
 
 
@@ -99,7 +101,7 @@ ul.myMenu li ul li a:hover {background:#decea8 url(../images/bullets.png)  8px 9
 .tableheader { font-family: Verdana, Geneva, sans-serif; color:#000000; padding:2px 0px 2px 0px; font-weight:bold; background-image:url(../images/tableHdr.png)}
 .paddingUniform{padding-left:35px}
 .unitedway {padding-top:5px; font-family: Verdana, Geneva, sans-serif; font-size:10px; line-height:12px !important}
-.copyright {text-align:center; padding-top:40px; font-family: Verdana, Geneva, sans-serif; font-size:10px; line-height:14px !important}
+.copyright {text-align:center; padding-top:10px; font-family: Verdana, Geneva, sans-serif; font-size:10px; line-height:14px !important}
 .tableBorder {border: 1pt solid #9a9a9a;}
 .tableSeparator {border-bottom: 1pt solid #d4c2ab;}
 .photoStrip{ float:right; margin-left:15px; padding:4px; width:280px; font-family: Verdana, Geneva, sans-serif; font-size:10px;}
@@ -239,7 +241,7 @@ ul.myMenu li ul li a:hover {background:#decea8 url(../images/bullets.png)  8px 9
 
 
 /*Boxes on front page*/
-.home_boxes {width: 980px; height: 300px; float:left; margin-left: 5px;}
+.home_boxes {width: 955px; height: auto; float:none; margin-left: 5px; margin-bottom: 20px; clear:both; display: inline-block;}
 /*.home_boxes .box1 {float: left; width: 296px; height: 212px; background:url(../images/box1.png) top left no-repeat; padding-right: 25px;}
 .home_boxes .box2 {float: left; width: 296px; height: 212px; background:url(../images/box2.png) top left no-repeat; padding-right: 25px;}
 .home_boxes .box3 {float: left; width: 306px; height: 212px; background:url(../images/box3.png) top left no-repeat;}*/
@@ -263,10 +265,10 @@ background-color: #7F6C88;
 .home_boxes .box1, .home_boxes .box2, .home_boxes .box3
 {
     float: left;
-    width: 230px;
+    width: 302px;
     padding-right: 0px;
     margin-right: 14px;
-    height: 284px;
+    height: 234px;
     border-radius: 0px 15px 0px 15px;
     background-color: #E4E1D4;
     border-width: 1px;
@@ -374,7 +376,7 @@ border-color: #C6C0A2;
 {
 border: none;
 visibility: visible;
-width: 212px;
+width: 940px;
 height: 286px;
 border-radius: 0px 15px 0px 15px;
 }
